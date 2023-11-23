@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvArrivals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:text="New Arrivals" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvArrivals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/arrivals_list_item"
+            app:layout_constraintTop_toBottomOf="@+id/tvArrivals"
+            app:layout_constraintStart_toStartOf="@+id/tvArrivals"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal"
+            android:layout_marginStart="6dp"
+            tools:itemCount="10"
+            android:layout_marginTop="17dp" />
+
+
+        <TextView
+            android:id="@+id/tvPickPopular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rvArrivals"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:text="Pick from Popular Genres" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPickPopular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/pickpopular_list_item"
+            android:layout_marginStart="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvPickPopular"
+            app:layout_constraintStart_toStartOf="@+id/tvPickPopular"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal"
+            tools:itemCount="10"
+            android:layout_marginTop="17dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

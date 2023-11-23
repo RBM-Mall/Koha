@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".module.registration.RegistrationLibraryActivity">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_account_details"
+            style="@style/textview_regular"
+            android:textSize="24sp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="137dp"/>
+
+        <EditText
+            android:id="@+id/etCardNumber"
+            style="@style/edittext"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="@string/card_number"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/edittext"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="@string/your_email"
+            app:layout_constraintTop_toBottomOf="@+id/etCardNumber" />
+
+        <EditText
+            android:id="@+id/etMobile"
+            style="@style/edittext"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="@string/your_phone_number"
+            app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+        <Spinner
+            android:id="@+id/spinnerLibrary"
+            android:background="@drawable/edittext_background"
+            android:layout_height="@dimen/_44sdp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/etMobile"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/etLibrary"
+            style="@style/edittext"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="@string/select_library"
+            android:paddingEnd="15dp"
+            android:visibility="gone"
+            android:drawableRight="@drawable/ic_down_arrow"
+            app:layout_constraintTop_toBottomOf="@+id/etMobile" />
+
+        <EditText
+            android:id="@+id/etCategory"
+            style="@style/edittext"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:hint="@string/select_category"
+            android:paddingEnd="15dp"
+            android:drawableRight="@drawable/ic_down_arrow"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerLibrary" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_44sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="@string/submit"
+            android:background="@drawable/button_background"
+            style="@style/button"
+            app:layout_constraintEnd_toEndOf="@id/etCategory"
+            app:layout_constraintStart_toStartOf="@+id/etCategory"
+            app:layout_constraintTop_toBottomOf="@+id/etCategory" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

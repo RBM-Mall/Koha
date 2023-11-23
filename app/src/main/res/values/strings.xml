@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Koha</string>
+    <string name="login">Login</string>
+    <string name="enter_userid_password">Enter userid and password</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="no_internet">No Internet</string>
+    <string name="trip_sheet_no">Trip sheet no</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="rules_regulation"><![CDATA[Rules & Regulation]]></string>
+    <string name="total_hu">Total HU</string>
+    <string name="scan_hu">Scan HU</string>
+    <string name="bar_code">Bar Code</string>
+    <string name="c_note_number">C Note Number</string>
+    <string name="carton_no">Carton No</string>
+    <string name="status">Status</string>
+    <string name="bluetooth_setting">Bluetooth Setting</string>
+    <string name="last_connected_device">Last connected device</string>
+    <string name="add_new_device">Add New Device</string>
+    <string name="ip_mac_address">IP MAC Address</string>
+    <string name="add">Add</string>
+    <string name="test_device">Test Device</string>
+    <string name="start">Start</string>
+    <string name="vehicle_no">Vehicle Number</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="some_thing_went_wrong">Something went wrong</string>
+    <string name="stop">Stop</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="don_t_have">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="forgot_password_detail">Enter your Email for the verification process, we will send 4 digits code to your Email/Mobile No.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or">or</string>
+    <string name="email">Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="enter_four_digits_code">Enter 4 Digits Code</string>
+    <string name="otp_detail">Enter the 4 digits code that you received on your Email/Mobile No.</string>
+    <string name="continue_">Continue</string>
+    <string name="update_password">Update Password</string>
+    <string name="powered_by_estBookBuddies">Powered by BestBookBuddies</string>
+    <string name="skip">Skip</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">Date of Birthday</string>
+    <string name="address">Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="card_number">Card Number</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="select_library">Select Library</string>
+    <string name="select_category">Select Category</string>
+    <string name="library_account_details">Library Account Details</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="please_enter_password">Please enter Password</string>
+
+    <array name="library_list">
+        <item>abc</item>
+        <item>def</item>
+        <item>ghi</item>
+        <item>jkl</item>
+    </array>
+
+</resources>

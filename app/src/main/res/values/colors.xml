@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00C8BE</color>
+    <color name="primary_dark">#009A90</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_color">#122122</color>
+    <color name="text_color_secondary">#677294</color>
+    <color name="button_color">#009A90</color>
+    <color name="text_hyperlink_color">#009A90</color>
+
+
+    <color name="gray">#677294</color>
+    <color name="orange">#C76933</color>
+    <color name="green">#599544</color>
+
+    <color name="green_light">#004000</color>
+    <color name="red_light">#420304</color>
+    <color name="blue">#253359</color>
+    <color name="sky_blue">#2196F3</color>
+
+    <color name="barcode_reticle_background">#99000000</color>
+    <color name="barcode_reticle_stroke">#ffffff</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="sweet_dialog_bg_color">#F5F2F2</color>
+
+    <color name="blacknew">#677294</color>
+    <color name="btbBack">#009A90</color>
+    <color name="non_active_slider">#B3ACDDD3</color>
+    <color name="stravaColor">#fb5405</color>
+</resources>
